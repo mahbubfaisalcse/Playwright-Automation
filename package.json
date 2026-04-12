@@ -1,0 +1,17 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Faisal",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0"
+  }
+}
