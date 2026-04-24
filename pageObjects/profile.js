@@ -46,4 +46,10 @@ export class Profile extends BasePage{
     // async clickSignInButton(){
     //     await this.signInButton.ckick();
     // }
+
+    async login(email, password){
+        await this.enterEmail(email);
+        await this.enterPassword(password);
+        await this.clickButton("Sign In");
+    }
 }

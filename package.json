@@ -6,10 +6,15 @@
   "author": "Faisal",
   "type": "module",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "runAll": "npx playwright test --headed",
+    "addToCart": "npx playwright test --headed addToCart.spec.js",
+    "registration": "npx playwright test --headed registration.spec.js",
+    "showReport": "npx playwright show-report"
+  },
   "devDependencies": {
     "@playwright/test": "^1.59.1",
-    "@types/node": "^25.5.2"
+    "@types/node": "^25.6.0"
   },
   "dependencies": {
     "@faker-js/faker": "^10.4.0"
